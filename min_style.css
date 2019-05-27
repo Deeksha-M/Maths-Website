@@ -1,0 +1,228 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#page-container{
+    margin: 10px;
+}
+
+header,#header-section{
+    height: 50px;
+    width:100%;
+    margin: 10px 0;
+}
+
+#header-text{
+    font-size: 2em;
+    color: #000066;
+    text-align: center;
+    float: left;
+}
+#header-search{
+    height: 50px;
+    margin: 10px 0;
+    float: right;
+    padding:5px;
+    background: linear-gradient(#3399CC,#CCFFFF);
+    background: -o-linear-gradient(#3399CC,#CCFFFF);
+    background: -moz-linear-gradient(#3399CC,#CCFFFF);
+    background: -webkit-linear-gradient(#3399CC,#CCFFFF);
+    background: -ms-linear-gradient(#3399CC,#CCFFFF);
+}
+
+.nav-menu{
+    display: none;
+}
+
+#search-container{
+    text-align: center;
+    clear: both;
+}
+
+#search-box{
+    height: 20px;
+    margin:15px 0;
+    color: #000066;
+    border: none;
+    padding-left: 5px;
+}
+
+#search-submit{
+    height: 20px;
+    background-color: #000066;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+#nav-section{
+    clear: both;
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(#808080,#DCDCDC);
+    background: -o-linear-gradient(#808080,#DCDCDC);
+    background: -moz-linear-gradient(#808080,#DCDCDC);
+    background: -webkit-linear-gradient(#808080,#DCDCDC);
+    background: -ms-linear-gradient(#808080,#DCDCDC); 
+}
+
+#nav-container{
+    position: relative;
+    top: 25px;
+    height: 16px;
+    text-align: center;
+}
+
+.nav-list{
+    list-style: none;
+    margin:0;
+}
+
+.nav-links{
+    display: inline-block;
+    border-left: 1px dotted #000066;
+    padding: 3px 0 0 5px;
+    color: #000066;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: inherit;
+}
+
+.nav-links a:hover, .nav-links a:active{
+    font-size: 1.20em;
+    font-weight: bold;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#nav-container ul>:first-child{
+    border-left:none;
+}
+
+article{
+    clear: both;
+}
+
+#section1-help{
+    margin-top: 30px;
+    border: 1px solid #13335B;
+    border-radius: 5px;
+    padding: 10px 0 7px 10px;
+    color: #000066;
+    background: linear-gradient(lightcyan,powderblue);
+    background: -o-linear-gradient(#808080,#DCDCDC);
+    background: -moz-linear-gradient(#808080,#DCDCDC);
+    background: -webkit-linear-gradient(lightcyan,powderblue);
+    background: -ms-linear-gradient(#808080,#DCDCDC);
+    font-size: 1.25em;
+}
+
+#section1-text{
+    display: inline-block;
+    position: relative;
+    width: 53%;
+    padding-right: 10px;
+}
+
+#section1-image{
+    height: 250px;
+    width: 40%;
+    display: inline-block;
+    padding-top: 10px;
+    padding: 20px 10px 10px 10px;
+}
+
+#section-heading{
+    margin-top: 0;
+    padding-top: 0px;
+}
+
+.section-content{
+    color: #576595;
+}
+
+.section2-help{
+    width: 45%;
+    height: 400px;
+    padding:10px;
+    margin: 30px 0;
+    border: 1px solid #13335B;
+    border-radius: 10px;
+    float: left;
+}
+
+h3{
+    font-size: 1.5em;
+    color: #000066;
+}
+
+.section2-list{
+    list-style-image: url("images/right-arrow.png");
+} 
+
+.section2-link a{
+    color: #576595;
+    font-size: 1.1em;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.section2-link a:hover, .section2-link a:active{
+    font-size: 1.35em;
+    color: #000066;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#section3-help{
+    float: right;
+}
+
+.section3-list{
+    list-style-image: url(images/tick-mark1.jpg);
+    list-style-position: outside;
+}
+
+.section3-link{
+    position: relative;
+    padding: 5px 0;
+}
+
+footer{
+    text-align: center;
+    clear: both;
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(#808080,#DCDCDC);
+    background: -o-linear-gradient(#808080,#DCDCDC);
+    background: -moz-linear-gradient(#808080,#DCDCDC);
+    background: -webkit-linear-gradient(#808080,#DCDCDC);
+    background: -ms-linear-gradient(#808080,#DCDCDC); 
+}
+
+#footer-text{
+    position: relative;
+    top: 25px;
+    color:#000066;
+}
